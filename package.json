@@ -1,0 +1,26 @@
+{
+  "name": "nodeJs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "useKoa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinaiwei/nodeJs.git"
+  },
+  "author": "ivy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinaiwei/nodeJs/issues"
+  },
+  "homepage": "https://github.com/yinaiwei/nodeJs#readme"
+}

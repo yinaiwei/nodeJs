@@ -1,11 +1,24 @@
-const Koa = require('koa')
+const Koa = require('koa');
+const fs = require('fs');
 
-const app = new Koa()
+const a = require('./a');
+const b = require('./b');
 
-// console.log(app);
+const app = new Koa();
 
-app.use(async ctx =>{
-    ctx.body = "hello,world"
-})
+app.use(async ctx => {
+	const h = new Date();
 
-app.listen(8889)
+	const x = () => {
+		return 1;
+	}
+
+	if (x === 1) {
+
+	}
+
+	console.log('1110');
+  ctx.body = "hello,world";
+});
+
+app.listen(8889);
