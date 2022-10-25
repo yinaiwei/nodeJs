@@ -1,8 +1,8 @@
 const Koa = require('koa');
 const fs = require('fs');
 
-const a = require('./a');
-const b = require('./b');
+// const a = require('./a');
+// const b = require('./b');
 
 const app = new Koa();
 

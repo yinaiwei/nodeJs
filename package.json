@@ -1,5 +1,5 @@
 {
-  "name": "nodeJs",
+  "name": "nodejs",
   "private": true,
   "workspaces": [
     "packages/*"
